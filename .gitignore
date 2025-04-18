@@ -1,0 +1,38 @@
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# Eclipse / IntelliJ / VS Code / MacOS
+*.iml
+.idea/
+*.iws
+*.ipr
+.vscode/
+.DS_Store
+
+# Logs
+logs/
+*.log
+*.out
+
+# Docker
+**/node_modules
+.env
+*.pid
+docker-compose.override.yml
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Spring Boot devtools
+.spring-boot-devtools.properties
